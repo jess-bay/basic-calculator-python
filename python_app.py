@@ -6,19 +6,19 @@
 
 def add(a, b): 
   answer = a + b
-  print(str(a) + " + " + str(b) + " = " + str(answer))
+  print(str(a) + " + " + str(b) + " = " + str(answer) + "\n")
 
 def subtract(a, b): 
   answer = a - b
-  print(str(a) + " - " + str(b) + " = " + str(answer))
+  print(str(a) + " - " + str(b) + " = " + str(answer) + "\n")
 
 def multiply(a, b): 
   answer = a * b
-  print(str(a) + " x " + str(b) + " = " + str(answer))
+  print(str(a) + " x " + str(b) + " = " + str(answer) + "\n")
 
 def divide(a, b): 
   answer = a / b
-  print(str(a) + " / " + str(b) + " = " + str(answer))
+  print(str(a) + " / " + str(b) + " = " + str(answer) + "\n")
 
 # print the options - add, subtract, multiply, divide, exit
 while True:
